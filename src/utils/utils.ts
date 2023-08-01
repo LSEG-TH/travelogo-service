@@ -9,7 +9,11 @@ import { ExpressError } from '../types/error';
  * @param {NextFunction} next NextFunction
  * @returns {void | NextFunction} void on non error
  */
-const handleJsonRequest = (req: Request, res: Response, next: NextFunction): void | NextFunction => {
+const handleJsonRequest = (
+	req: Request,
+	res: Response,
+	next: NextFunction
+): void | NextFunction => {
 	if (!req.is('application/json')) {
 		const err: ExpressError = new Error('Expect content to be json.');
 		err.status = 400;
@@ -24,7 +28,10 @@ const hashPassword = async (password: string): Promise<string> => {
 	return hashPassword;
 };
 
-const checkPassword = async (password: string, hashPassword: string): Promise<boolean> => {
+const checkPassword = async (
+	password: string,
+	hashPassword: string
+): Promise<boolean> => {
 	const comparator = await bcrypt.compare(password, hashPassword);
 	return comparator;
 };
