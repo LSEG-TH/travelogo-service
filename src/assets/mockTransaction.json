@@ -1,0 +1,74 @@
+{
+	"transactions": [
+		{
+			"transaction_id": 1,
+			"booking_id": 1,
+			"currency": "USD",
+			"amount": 1000.0,
+			"transaction_date": "2023-07-02"
+		},
+		{
+			"transaction_id": 2,
+			"booking_id": 2,
+			"currency": "GBP",
+			"amount": 750.0,
+			"transaction_date": "2023-07-03"
+		},
+		{
+			"transaction_id": 3,
+			"booking_id": 3,
+			"currency": "EUR",
+			"amount": 2500.0,
+			"transaction_date": "2023-07-05"
+		},
+		{
+			"transaction_id": 4,
+			"booking_id": 4,
+			"currency": "EUR",
+			"amount": 600.0,
+			"transaction_date": "2023-07-07"
+		},
+		{
+			"transaction_id": 5,
+			"booking_id": 5,
+			"currency": "AUD",
+			"amount": 1200.0,
+			"transaction_date": "2023-07-09"
+		},
+		{
+			"transaction_id": 6,
+			"booking_id": 6,
+			"currency": "CNY",
+			"amount": 150.0,
+			"transaction_date": "2023-07-11"
+		},
+		{
+			"transaction_id": 7,
+			"booking_id": 7,
+			"currency": "JPY",
+			"amount": 3000.0,
+			"transaction_date": "2023-07-12"
+		},
+		{
+			"transaction_id": 8,
+			"booking_id": 8,
+			"currency": "EUR",
+			"amount": 900.0,
+			"transaction_date": "2023-07-14"
+		},
+		{
+			"transaction_id": 9,
+			"booking_id": 9,
+			"currency": "EUR",
+			"amount": 200.0,
+			"transaction_date": "2023-07-16"
+		},
+		{
+			"transaction_id": 10,
+			"booking_id": 10,
+			"currency": "USD",
+			"amount": 1000.0,
+			"transaction_date": "2023-07-18"
+		}
+	]
+}

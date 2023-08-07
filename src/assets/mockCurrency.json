@@ -1,0 +1,88 @@
+{
+	"currency_exchange": [
+		{
+			"currency_code": "USD",
+			"currency_name": "US Dollar",
+			"exchange_rates": [
+				{
+					"date": "2023-07-01",
+					"rate": 1.0
+				},
+				{
+					"date": "2023-07-12",
+					"rate": 1.0
+				}
+			]
+		},
+		{
+			"currency_code": "GBP",
+			"currency_name": "British Pound",
+			"exchange_rates": [
+				{
+					"date": "2023-07-01",
+					"rate": 1.37
+				},
+				{
+					"date": "2023-07-12",
+					"rate": 1.39
+				}
+			]
+		},
+		{
+			"currency_code": "EUR",
+			"currency_name": "Euro",
+			"exchange_rates": [
+				{
+					"date": "2023-07-01",
+					"rate": 1.19
+				},
+				{
+					"date": "2023-07-12",
+					"rate": 1.22
+				}
+			]
+		},
+		{
+			"currency_code": "AUD",
+			"currency_name": "Australian Dollar",
+			"exchange_rates": [
+				{
+					"date": "2023-07-01",
+					"rate": 0.74
+				},
+				{
+					"date": "2023-07-12",
+					"rate": 0.76
+				}
+			]
+		},
+		{
+			"currency_code": "CNY",
+			"currency_name": "Chinese Yuan",
+			"exchange_rates": [
+				{
+					"date": "2023-07-01",
+					"rate": 0.15
+				},
+				{
+					"date": "2023-07-12",
+					"rate": 0.16
+				}
+			]
+		},
+		{
+			"currency_code": "JPY",
+			"currency_name": "Japanese Yen",
+			"exchange_rates": [
+				{
+					"date": "2023-07-01",
+					"rate": 0.0091
+				},
+				{
+					"date": "2023-07-12",
+					"rate": 0.0093
+				}
+			]
+		}
+	]
+}
