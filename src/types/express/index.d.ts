@@ -5,22 +5,21 @@ import { DatabaseUserProfile } from '../user';
 export {};
 
 declare global {
-  namespace Express {
-    export interface Request {
+	namespace Express {
+		export interface Request {
 			app: {
 				locals: {
 					//TO-DO: Add mock database request interface
-				}
-			},
-			busboy
-    }
-		export interface Response {
-			locals: LocalsRequest
+				};
+			};
+			busboy;
 		}
-  }
+		export interface Response {
+			locals: LocalsRequest;
+		}
+	}
 }
 
-
 interface LocalsRequest {
-  session?: DatabaseUserProfile;
+	session?: DatabaseUserProfile;
 }
