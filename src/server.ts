@@ -9,7 +9,7 @@ import middleware from './middlewares/middlewareIndex';
 app.use('/', middleware);
 
 app.use('/', (req, res) => {
-	res.send('hi');
+	res.send('hi2');
 });
 
 // Non DB Initiate version
