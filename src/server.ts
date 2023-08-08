@@ -6,11 +6,10 @@ const app = express();
 
 // Import Prefix middleware
 import middleware from './middlewares/middlewareIndex';
-app.use('/', middleware);
+import routerApi from './routes/routeApi';
 
-app.use('/', (req, res) => {
-	res.send('hi2');
-});
+app.use('/', middleware);
+app.use('/api', routerApi);
 
 // Non DB Initiate version
 app.listen(process.env.SERVER_PORT || 3030, () => {
