@@ -1,8 +1,12 @@
 import express from 'express';
 import * as dotenv from 'dotenv';
+import cors from 'cors';
 
 dotenv.config({ path: __dirname + '/configs/.env' });
 const app = express();
+
+// use it before all route definitions
+app.use(cors({ origin: 'http://localhost:3000' }));
 
 // Import Prefix middleware
 import middleware from './middlewares/middlewareIndex';
