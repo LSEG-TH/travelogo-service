@@ -6,7 +6,7 @@ dotenv.config({ path: __dirname + '/configs/.env' });
 const app = express();
 
 // use it before all route definitions
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: '*' }));
 
 // Import Prefix middleware
 import middleware from './middlewares/middlewareIndex';
