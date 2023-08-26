@@ -29,27 +29,36 @@ import {
 
 const routerApi = express.Router();
 // mock data
-routerApi.get('/booking', getBooking);
-routerApi.get('/currency', getCurrency);
-routerApi.get('/guest', getGuest);
-routerApi.get('/review', getReview);
-routerApi.get('/transaction', getTransaction);
+routerApi.get('/v1/booking', getBooking);
+routerApi.get('/v1/currency', getCurrency);
+routerApi.get('/v1/guest', getGuest);
+routerApi.get('/v1/review', getReview);
+routerApi.get('/v1/transaction', getTransaction);
 
 // dashboard data
-routerApi.get('/oneYearSeasonalIncomeData', getOneYearSeasonalIncomeData);
-routerApi.get('/threeYearsSeasonalIncomeData', getThreeYearsSeasonalIncomeData);
+routerApi.get('/v1/oneYearSeasonalIncomeData', getOneYearSeasonalIncomeData);
+routerApi.get(
+	'/v1/threeYearsSeasonalIncomeData',
+	getThreeYearsSeasonalIncomeData
+);
 
-routerApi.get('/sixMonthsTurnupRatioData', getSixMonthsTurnupRatioData);
-routerApi.get('/oneYearTurnupRatioData', getOneYearTurnupRatioData);
-routerApi.get('/twoYearsTurnupRatioData', getTwoYearsTurnupRatioData);
+routerApi.get('/v1/sixMonthsTurnupRatioData', getSixMonthsTurnupRatioData);
+routerApi.get('/v1/oneYearTurnupRatioData', getOneYearTurnupRatioData);
+routerApi.get('/v1/twoYearsTurnupRatioData', getTwoYearsTurnupRatioData);
 
-routerApi.get('/sixMonthsGuestPerCountryData', getSixMonthsGuestPerCountryData);
-routerApi.get('/oneYearGuestPerCountryData', getOneYearGuestPerCountryData);
-routerApi.get('/twoYearsGuestPerCountryData', getTwoYearsGuestPerCountryData);
+routerApi.get(
+	'/v1/sixMonthsGuestPerCountryData',
+	getSixMonthsGuestPerCountryData
+);
+routerApi.get('/v1/oneYearGuestPerCountryData', getOneYearGuestPerCountryData);
+routerApi.get(
+	'/v1/twoYearsGuestPerCountryData',
+	getTwoYearsGuestPerCountryData
+);
 
-routerApi.get('/visitorTypeData', getVisitorTypeData);
-routerApi.get('/roomTypesData', getRoomTypesData);
-routerApi.get('/visitPurposeData', getVisitPurposeData);
-routerApi.get('/stayingLengthData', getStayingLengthData);
+routerApi.get('/v1/visitorTypeData', getVisitorTypeData);
+routerApi.get('/v1/roomTypesData', getRoomTypesData);
+routerApi.get('/v1/visitPurposeData', getVisitPurposeData);
+routerApi.get('/v1/stayingLengthData', getStayingLengthData);
 
 export default routerApi;
