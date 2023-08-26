@@ -10,7 +10,9 @@ export const sixMonthsTurnupRatioData = {
 	datasets: [
 		{
 			backgroundColor: '#9BD0F5',
-			data: [99, 98, 99, 97.5, 93, 95]
+			data: [99, 98, 99, 97.5, 93]
+			// FIXME: create bug missing data for v1
+			// data: [99, 98, 99, 97.5, 93, 95]
 		}
 	]
 };

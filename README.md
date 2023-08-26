@@ -18,28 +18,28 @@
 ### Api List
 
 ```
-http://localhost:3030/api/booking
-http://localhost:3030/api/currency
-http://localhost:3030/api/guest
-http://localhost:3030/api/review
-http://localhost:3030/api/transaction
+http://localhost:3030/api/v1/booking
+http://localhost:3030/api/v1/currency
+http://localhost:3030/api/v1/guest
+http://localhost:3030/api/v1/review
+http://localhost:3030/api/v1/transaction
 
 # dashboard api
-http://localhost:3030/api/oneYearSeasonalIncomeData
-http://localhost:3030/api/threeYearsSeasonalIncomeData
+http://localhost:3030/api/v1/oneYearSeasonalIncomeData
+http://localhost:3030/api/v1/threeYearsSeasonalIncomeData
 
-http://localhost:3030/api/sixMonthsTurnupRatioData
-http://localhost:3030/api/oneYearTurnupRatioData
-http://localhost:3030/api/twoYearsTurnupRatioData
+http://localhost:3030/api/v1/sixMonthsTurnupRatioData
+http://localhost:3030/api/v1/oneYearTurnupRatioData
+http://localhost:3030/api/v1/twoYearsTurnupRatioData
 
-http://localhost:3030/api/sixMonthsGuestPerCountryData
-http://localhost:3030/api/oneYearGuestPerCountryData
-http://localhost:3030/api/twoYearsGuestPerCountryData
+http://localhost:3030/api/v1/sixMonthsGuestPerCountryData
+http://localhost:3030/api/v1/oneYearGuestPerCountryData
+http://localhost:3030/api/v1/twoYearsGuestPerCountryData
 
-http://localhost:3030/api/visitorTypeData
-http://localhost:3030/api/roomTypesData
-http://localhost:3030/api/visitPurposeData
-http://localhost:3030/api/stayingLengthData
+http://localhost:3030/api/v1/visitorTypeData
+http://localhost:3030/api/v1/roomTypesData
+http://localhost:3030/api/v1/visitPurposeData
+http://localhost:3030/api/v1/stayingLengthData
 ```
 
 ### Testing in Postman
