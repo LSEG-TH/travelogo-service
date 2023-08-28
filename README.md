@@ -15,7 +15,7 @@
 - server.ts #index file for serve/configure middleware and router
 ```
 
-### Api List
+### API List
 
 ```
 http://localhost:3030/api/v1/booking
@@ -24,7 +24,7 @@ http://localhost:3030/api/v1/guest
 http://localhost:3030/api/v1/review
 http://localhost:3030/api/v1/transaction
 
-# dashboard api
+# Summary API
 http://localhost:3030/api/v1/oneYearSeasonalIncomeData
 http://localhost:3030/api/v1/threeYearsSeasonalIncomeData
 
@@ -44,5 +44,5 @@ http://localhost:3030/api/v1/stayingLengthData
 
 ### Testing in Postman
 
-Join this Postman workspace:
-[LSEG-TH](https://app.getpostman.com/join-team?invite_code=87fbfa66b16956a929013677f23e7894&target_code=55f4e2a3100a027658ec308613405922)
+- API Document: https://documenter.getpostman.com/view/29390573/2s9Y5ZuMPE
+- Postman Collection: [LSEG-TH](https://app.getpostman.com/join-team?invite_code=07ae5441f8a6b12e3c07289da80c3cc6)
