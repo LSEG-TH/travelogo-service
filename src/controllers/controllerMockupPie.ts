@@ -1,9 +1,9 @@
 import { Request, Response } from 'express';
 const visitorTypeData = {
-	labels: ['Solo', 'Friends', 'Family'],
+	labels: ['Solo', 'Friends', 'Family', 'Couple'],
 	datasets: [
 		{
-			data: [17, 40, 43]
+			data: [28, 16, 12, 44]
 		}
 	]
 };
@@ -12,7 +12,7 @@ const roomTypesData = {
 	labels: ['Standard', 'Deluxe', 'Villa'],
 	datasets: [
 		{
-			data: [50, 32, 18],
+			data: [60, 28, 12],
 			backgroundColor: ['#A3204C', '#174A66', '#AF583A'],
 			borderColor: ['#A3204C', '#174A66', '#AF583A']
 		}
@@ -23,7 +23,7 @@ const visitPurposeData = {
 	labels: ['Leisure', 'Work'],
 	datasets: [
 		{
-			data: [65, 35],
+			data: [60, 40],
 			backgroundColor: ['#236F99', '#116262'],
 			borderColor: ['#236F99', '#116262']
 		}
@@ -31,10 +31,10 @@ const visitPurposeData = {
 };
 
 const stayingLengthData = {
-	labels: ['1 Day', '2 Days', '1 Week', '1 Month'],
+	labels: ['1 Day', '2 Days', '3 Days', '4 Days', '5 Days', '1 Week',],
 	datasets: [
 		{
-			data: [26, 48, 20, 6]
+			data: [16, 16, 20, 12, 24, 12]
 		}
 	]
 };

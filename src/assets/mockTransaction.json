@@ -5,70 +5,350 @@
 			"booking_id": 1,
 			"currency": "USD",
 			"amount": 1000.0,
-			"transaction_date": "2023-07-02"
+			"transaction_date": "2020-01-02"
 		},
 		{
 			"transaction_id": 2,
 			"booking_id": 2,
 			"currency": "GBP",
 			"amount": 750.0,
-			"transaction_date": "2023-07-03"
+			"transaction_date": "2020-02-03"
 		},
 		{
 			"transaction_id": 3,
 			"booking_id": 3,
 			"currency": "EUR",
 			"amount": 2500.0,
-			"transaction_date": "2023-07-05"
+			"transaction_date": "2020-02-05"
 		},
 		{
 			"transaction_id": 4,
 			"booking_id": 4,
 			"currency": "EUR",
 			"amount": 600.0,
-			"transaction_date": "2023-07-07"
+			"transaction_date": "2020-03-07"
 		},
 		{
 			"transaction_id": 5,
 			"booking_id": 5,
 			"currency": "AUD",
 			"amount": 1200.0,
-			"transaction_date": "2023-07-09"
+			"transaction_date": "2020-04-09"
 		},
 		{
 			"transaction_id": 6,
 			"booking_id": 6,
 			"currency": "CNY",
 			"amount": 150.0,
-			"transaction_date": "2023-07-11"
+			"transaction_date": "2020-05-01"
 		},
 		{
 			"transaction_id": 7,
 			"booking_id": 7,
 			"currency": "JPY",
 			"amount": 3000.0,
-			"transaction_date": "2023-07-12"
+			"transaction_date": "2020-05-12"
 		},
 		{
 			"transaction_id": 8,
 			"booking_id": 8,
 			"currency": "EUR",
 			"amount": 900.0,
-			"transaction_date": "2023-07-14"
+			"transaction_date": "2020-06-04"
 		},
 		{
 			"transaction_id": 9,
 			"booking_id": 9,
 			"currency": "EUR",
 			"amount": 200.0,
-			"transaction_date": "2023-07-16"
+			"transaction_date": "2020-07-06"
 		},
 		{
 			"transaction_id": 10,
 			"booking_id": 10,
 			"currency": "USD",
 			"amount": 1000.0,
-			"transaction_date": "2023-07-18"
+			"transaction_date": "2020-08-18"
+		},
+		{
+			"transaction_id": 11,
+			"booking_id": 11,
+			"currency": "USD",
+			"amount": 600.0,
+			"transaction_date": "2020-09-02"
+		},
+		{
+			"transaction_id": 12,
+			"booking_id": 12,
+			"currency": "USD",
+			"amount": 600.0,
+			"transaction_date": "2020-10-03"
+		},
+		{
+			"transaction_id": 13,
+			"booking_id": 13,
+			"currency": "EUR",
+			"amount": 1500.0,
+			"transaction_date": "2020-10-05"
+		},
+		{
+			"transaction_id": 14,
+			"booking_id": 14,
+			"currency": "USD",
+			"amount": 1000.0,
+			"transaction_date": "2020-11-07"
+		},
+		{
+			"transaction_id": 15,
+			"booking_id": 15,
+			"currency": "EUR",
+			"amount": 2500.0,
+			"transaction_date": "2020-12-09"
+		},
+		{
+			"transaction_id": 16,
+			"booking_id": 16,
+			"currency": "EUR",
+			"amount": 600.0,
+			"transaction_date": "2021-01-01"
+		},
+		{
+			"transaction_id": 17,
+			"booking_id": 17,
+			"currency": "AUD",
+			"amount": 250.0,
+			"transaction_date": "2021-02-12"
+		},
+		{
+			"transaction_id": 18,
+			"booking_id": 18,
+			"currency": "JPY",
+			"amount": 600.0,
+			"transaction_date": "2021-03-04"
+		},
+		{
+			"transaction_id": 19,
+			"booking_id": 19,
+			"currency": "EUR",
+			"amount": 900.0,
+			"transaction_date": "2021-03-16"
+		},
+		{
+			"transaction_id": 20,
+			"booking_id": 20,
+			"currency": "USD",
+			"amount": 1000.0,
+			"transaction_date": "2021-04-08"
+		},
+		{
+			"transaction_id": 21,
+			"booking_id": 21,
+			"currency": "EUR",
+			"amount": 800.0,
+			"transaction_date": "2021-04-12"
+		},
+		{
+			"transaction_id": 22,
+			"booking_id": 22,
+			"currency": "GBP",
+			"amount": 1500.0,
+			"transaction_date": "2021-05-03"
+		},
+		{
+			"transaction_id": 23,
+			"booking_id": 23,
+			"currency": "USD",
+			"amount": 300.0,
+			"transaction_date": "2021-05-25"
+		},
+		{
+			"transaction_id": 24,
+			"booking_id": 24,
+			"currency": "CNY",
+			"amount": 800.0,
+			"transaction_date": "2021-06-07"
+		},
+		{
+			"transaction_id": 25,
+			"booking_id": 25,
+			"currency": "CNY",
+			"amount": 1500.0,
+			"transaction_date": "2021-07-09"
+		},
+		{
+			"transaction_id": 26,
+			"booking_id": 26,
+			"currency": "USD",
+			"amount": 1500.0,
+			"transaction_date": "2021-08-11"
+		},
+		{
+			"transaction_id": 27,
+			"booking_id": 27,
+			"currency": "EUR",
+			"amount": 1200.0,
+			"transaction_date": "2021-09-12"
+		},
+		{
+			"transaction_id": 28,
+			"booking_id": 28,
+			"currency": "EUR",
+			"amount": 1700.0,
+			"transaction_date": "2021-10-04"
+		},
+		{
+			"transaction_id": 29,
+			"booking_id": 29,
+			"currency": "EUR",
+			"amount": 900.0,
+			"transaction_date": "2021-11-16"
+		},
+		{
+			"transaction_id": 30,
+			"booking_id": 30,
+			"currency": "EUR",
+			"amount": 250.0,
+			"transaction_date": "2021-12-08"
+		},
+		{
+			"transaction_id": 31,
+			"booking_id": 31,
+			"currency": "EUR",
+			"amount": 250.0,
+			"transaction_date": "2021-12-12"
+		},
+		{
+			"transaction_id": 32,
+			"booking_id": 32,
+			"currency": "AUD",
+			"amount": 900.0,
+			"transaction_date": "2022-01-03"
+		},
+		{
+			"transaction_id": 33,
+			"booking_id": 33,
+			"currency": "GBP",
+			"amount": 500.0,
+			"transaction_date": "2022-01-05"
+		},
+		{
+			"transaction_id": 34,
+			"booking_id": 34,
+			"currency": "EUR",
+			"amount": 800.0,
+			"transaction_date": "2022-02-07"
+		},
+		{
+			"transaction_id": 35,
+			"booking_id": 35,
+			"currency": "EUR",
+			"amount": 1400.0,
+			"transaction_date": "2022-03-09"
+		},
+		{
+			"transaction_id": 36,
+			"booking_id": 36,
+			"currency": "EUR",
+			"amount": 1500.0,
+			"transaction_date": "2022-04-11"
+		},
+		{
+			"transaction_id": 37,
+			"booking_id": 37,
+			"currency": "JPY",
+			"amount": 300.0,
+			"transaction_date": "2022-04-12"
+		},
+		{
+			"transaction_id": 38,
+			"booking_id": 38,
+			"currency": "AUD",
+			"amount": 400.0,
+			"transaction_date": "2022-05-14"
+		},
+		{
+			"transaction_id": 39,
+			"booking_id": 39,
+			"currency": "EUR",
+			"amount": 200.0,
+			"transaction_date": "2022-05-16"
+		},
+		{
+			"transaction_id": 40,
+			"booking_id": 40,
+			"currency": "USD",
+			"amount": 800.0,
+			"transaction_date": "2022-06-01"
+		},
+		{
+			"transaction_id": 41,
+			"booking_id": 41,
+			"currency": "GBP",
+			"amount": 900.0,
+			"transaction_date": "2022-07-02"
+		},
+		{
+			"transaction_id": 42,
+			"booking_id": 42,
+			"currency": "USD",
+			"amount": 800.0,
+			"transaction_date": "2022-08-13"
+		},
+		{
+			"transaction_id": 43,
+			"booking_id": 43,
+			"currency": "EUR",
+			"amount": 950.0,
+			"transaction_date": "2022-09-05"
+		},
+		{
+			"transaction_id": 44,
+			"booking_id": 44,
+			"currency": "GBP",
+			"amount": 1000.0,
+			"transaction_date": "2022-10-07"
+		},
+		{
+			"transaction_id": 45,
+			"booking_id": 45,
+			"currency": "GBP",
+			"amount": 250.0,
+			"transaction_date": "2022-10-09"
+		},
+		{
+			"transaction_id": 46,
+			"booking_id": 46,
+			"currency": "JPY",
+			"amount": 750.0,
+			"transaction_date": "2022-11-11"
+		},
+		{
+			"transaction_id": 47,
+			"booking_id": 47,
+			"currency": "EUR",
+			"amount": 1250.0,
+			"transaction_date": "2022-11-12"
+		},
+		{
+			"transaction_id": 48,
+			"booking_id": 48,
+			"currency": "CNY",
+			"amount": 1400.0,
+			"transaction_date": "2022-12-14"
+		},
+		{
+			"transaction_id": 49,
+			"booking_id": 49,
+			"currency": "EUR",
+			"amount": 1200.0,
+			"transaction_date": "2023-12-16"
+		},
+		{
+			"transaction_id": 50,
+			"booking_id": 50,
+			"currency": "AUD",
+			"amount": 1500.0,
+			"transaction_date": "2023-12-18"
 		}
 	]
 }

@@ -69,6 +69,286 @@
 			"guest_id": 21,
 			"score": 10,
 			"comment": "The hotel provided excellent service. Highly recommended!"
+		},
+		{
+			"review_id": 11,
+			"booking_id": 11,
+			"guest_id": 11,
+			"score": 9,
+			"comment": "Had a wonderful stay at the hotel. Great service!"
+		},
+		{
+			"review_id": 12,
+			"booking_id": 12,
+			"guest_id": 3,
+			"score": 9,
+			"comment": "The hotel was comfortable and conveniently located."
+		},
+		{
+			"review_id": 13,
+			"booking_id": 13,
+			"guest_id": 4,
+			"score": 6,
+			"comment": "Enjoyed the villa but had some issues with cleanliness."
+		},
+		{
+			"review_id": 14,
+			"booking_id": 14,
+			"guest_id": 7,
+			"score": 9,
+			"comment": "The staff was very helpful during our stay."
+		},
+		{
+			"review_id": 15,
+			"booking_id": 15,
+			"guest_id": 10,
+			"score": 10,
+			"comment": "Absolutely loved the deluxe room and the amenities!"
+		},
+		{
+			"review_id": 16,
+			"booking_id": 16,
+			"guest_id": 12,
+			"score": 6,
+			"comment": "The standard room was small and not well-maintained."
+		},
+		{
+			"review_id": 17,
+			"booking_id": 17,
+			"guest_id": 13,
+			"score": 9,
+			"comment": "The villa was spacious and offered beautiful views."
+		},
+		{
+			"review_id": 18,
+			"booking_id": 18,
+			"guest_id": 16,
+			"score": 6,
+			"comment": "The deluxe room was comfortable but had some issues with cleanliness."
+		},
+		{
+			"review_id": 19,
+			"booking_id": 19,
+			"guest_id": 19,
+			"score": 9,
+			"comment": "Had a pleasant stay in the standard room. Clean and cozy."
+		},
+		{
+			"review_id": 20,
+			"booking_id": 20,
+			"guest_id": 21,
+			"score": 10,
+			"comment": "The hotel provided excellent service. Highly recommended!"
+		},
+		{
+			"review_id": 21,
+			"booking_id": 21,
+			"guest_id": 1,
+			"score": 9,
+			"comment": "Had a wonderful stay at the hotel. Great service!"
+		},
+		{
+			"review_id": 22,
+			"booking_id": 22,
+			"guest_id": 3,
+			"score": 8,
+			"comment": "The hotel was comfortable but had some issues with bathtub."
+		},
+		{
+			"review_id": 23,
+			"booking_id": 23,
+			"guest_id": 4,
+			"score": 7,
+			"comment": "Enjoyed the villa but had some issues with cleanliness."
+		},
+		{
+			"review_id": 24,
+			"booking_id": 24,
+			"guest_id": 7,
+			"score": 9,
+			"comment": "The staff was very helpful during our stay."
+		},
+		{
+			"review_id": 25,
+			"booking_id": 25,
+			"guest_id": 10,
+			"score": 10,
+			"comment": "Absolutely loved the deluxe room and the amenities!"
+		},
+		{
+			"review_id": 26,
+			"booking_id": 26,
+			"guest_id": 12,
+			"score": 6,
+			"comment": "The standard room was small and not well-maintained."
+		},
+		{
+			"review_id": 27,
+			"booking_id": 27,
+			"guest_id": 13,
+			"score": 10,
+			"comment": "The villa was spacious and offered beautiful views."
+		},
+		{
+			"review_id": 28,
+			"booking_id": 28,
+			"guest_id": 16,
+			"score": 9,
+			"comment": "The villa was spacious, loved the vibe and the amenities! "
+		},
+		{
+			"review_id": 29,
+			"booking_id": 29,
+			"guest_id": 19,
+			"score": 9,
+			"comment": "Had a pleasant stay in the standard room. Clean and cozy."
+		},
+		{
+			"review_id": 30,
+			"booking_id": 30,
+			"guest_id": 21,
+			"score": 10,
+			"comment": "The hotel provided excellent service. Highly recommended!"
+		},
+		{
+			"review_id": 31,
+			"booking_id": 31,
+			"guest_id": 1,
+			"score": 9,
+			"comment": "Had a wonderful stay at the hotel. Great service!"
+		},
+		{
+			"review_id": 32,
+			"booking_id": 32,
+			"guest_id": 3,
+			"score": 8,
+			"comment": "The hotel was comfortable and conveniently located."
+		},
+		{
+			"review_id": 33,
+			"booking_id": 33,
+			"guest_id": 4,
+			"score": 6,
+			"comment": "Enjoyed the villa but had some issues with cleanliness."
+		},
+		{
+			"review_id": 34,
+			"booking_id": 34,
+			"guest_id": 7,
+			"score": 9,
+			"comment": "The staff was very helpful during our stay."
+		},
+		{
+			"review_id": 35,
+			"booking_id": 35,
+			"guest_id": 10,
+			"score": 10,
+			"comment": "Absolutely loved the deluxe room and the amenities!"
+		},
+		{
+			"review_id": 36,
+			"booking_id": 36,
+			"guest_id": 12,
+			"score": 7,
+			"comment": "The standard room was small and not well-maintained."
+		},
+		{
+			"review_id": 37,
+			"booking_id": 37,
+			"guest_id": 13,
+			"score": 9,
+			"comment": "The villa was spacious and offered beautiful views."
+		},
+		{
+			"review_id": 38,
+			"booking_id": 38,
+			"guest_id": 16,
+			"score": 9,
+			"comment": "The deluxe room was comfortable and nicely decorated."
+		},
+		{
+			"review_id": 39,
+			"booking_id": 39,
+			"guest_id": 19,
+			"score": 9,
+			"comment": "Had a pleasant stay in the standard room. Clean and cozy."
+		},
+		{
+			"review_id": 40,
+			"booking_id": 40,
+			"guest_id": 21,
+			"score": 10,
+			"comment": "The hotel provided excellent service. Highly recommended!"
+		},
+		{
+			"review_id": 41,
+			"booking_id": 41,
+			"guest_id": 1,
+			"score": 9,
+			"comment": "Had a wonderful stay at the hotel. Great service!"
+		},
+		{
+			"review_id": 42,
+			"booking_id": 42,
+			"guest_id": 3,
+			"score": 8,
+			"comment": "The hotel was comfortable and conveniently located."
+		},
+		{
+			"review_id": 43,
+			"booking_id": 43,
+			"guest_id": 4,
+			"score": 7,
+			"comment": "Enjoyed the villa but had some issues with cleanliness."
+		},
+		{
+			"review_id": 44,
+			"booking_id": 44,
+			"guest_id": 7,
+			"score": 9,
+			"comment": "The staff was very helpful during our stay."
+		},
+		{
+			"review_id": 45,
+			"booking_id": 45,
+			"guest_id": 10,
+			"score": 10,
+			"comment": "Absolutely loved the deluxe room and the amenities!"
+		},
+		{
+			"review_id": 46,
+			"booking_id": 46,
+			"guest_id": 12,
+			"score": 7,
+			"comment": "The standard room was small and not well-maintained."
+		},
+		{
+			"review_id": 47,
+			"booking_id": 47,
+			"guest_id": 13,
+			"score": 9,
+			"comment": "The villa was spacious and offered beautiful views."
+		},
+		{
+			"review_id": 48,
+			"booking_id": 48,
+			"guest_id": 16,
+			"score": 9,
+			"comment": "The deluxe room was comfortable and nicely decorated."
+		},
+		{
+			"review_id": 49,
+			"booking_id": 49,
+			"guest_id": 19,
+			"score": 9,
+			"comment": "Had a pleasant stay in the standard room. Clean and cozy."
+		},
+		{
+			"review_id": 50,
+			"booking_id": 50,
+			"guest_id": 21,
+			"score": 10,
+			"comment": "The hotel provided excellent service. Highly recommended!"
 		}
 	]
 }
