@@ -26,6 +26,7 @@ import {
 	getVisitPurposeData,
 	getVisitorTypeData
 } from '../controllers/controllerMockupPie';
+import { getUserCurrency } from '../controllers/controllerCurrency';
 
 const routerApi = express.Router();
 // mock data
@@ -60,5 +61,7 @@ routerApi.get('/v1/visitorTypeData', getVisitorTypeData);
 routerApi.get('/v1/roomTypesData', getRoomTypesData);
 routerApi.get('/v1/visitPurposeData', getVisitPurposeData);
 routerApi.get('/v1/stayingLengthData', getStayingLengthData);
+
+routerApi.get('/v1/getUserCurrency', getUserCurrency);
 
 export default routerApi;

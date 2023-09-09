@@ -1,0 +1,6 @@
+{
+	"locations": [
+		{ "name": "Thailand", "currency": "THB" },
+		{ "name": "United States", "currency": "USD" }
+	]
+}
