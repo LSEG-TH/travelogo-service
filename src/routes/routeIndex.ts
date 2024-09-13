@@ -7,7 +7,6 @@ const router = express.Router();
  */
 const API_VERSION = process.env.API_VERSION;
 
-//TODO: Add routing based on requirement
 
 /**
  * Mandatory Router, It must be at the bottom most.
