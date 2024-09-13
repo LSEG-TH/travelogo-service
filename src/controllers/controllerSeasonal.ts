@@ -70,4 +70,6 @@ const getThreeYearsSeasonalIncomeData = (req: Request, res: Response) => {
 	return res.json(threeYearsSeasonalIncomeData);
 };
 
+// TODO: add getOneYearSeasonalBookingCheckInData here and export it
+
 export { getOneYearSeasonalIncomeData, getThreeYearsSeasonalIncomeData };
