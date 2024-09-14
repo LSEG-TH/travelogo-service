@@ -7,6 +7,7 @@ import {
 	getTransaction
 } from '../controllers/controllerApi';
 import {
+	getOneYearSeasonalBookingCheckInData,
 	getOneYearSeasonalIncomeData,
 	getThreeYearsSeasonalIncomeData
 } from '../controllers/controllerSeasonal';
@@ -27,6 +28,7 @@ import {
 	getVisitorTypeData
 } from '../controllers/controllerMockupPie';
 
+
 const routerApi = express.Router();
 // mock data
 routerApi.get('/v1/booking', getBooking);
@@ -43,7 +45,7 @@ routerApi.get(
 );
 
 // TODO: adding the new route here
-
+routerApi.get('/v1/oneYearSeasonalBookingCheckInData', getOneYearSeasonalBookingCheckInData);
 routerApi.get('/v1/sixMonthsTurnupRatioData', getSixMonthsTurnupRatioData);
 routerApi.get('/v1/oneYearTurnupRatioData', getOneYearTurnupRatioData);
 routerApi.get('/v1/twoYearsTurnupRatioData', getTwoYearsTurnupRatioData);
