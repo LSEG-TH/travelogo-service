@@ -7,6 +7,7 @@ import {
 	getTransaction
 } from '../controllers/controllerApi';
 import {
+	getOneYearSeasonalBookingCheckInData,
 	getOneYearSeasonalIncomeData,
 	getThreeYearsSeasonalIncomeData
 } from '../controllers/controllerSeasonal';
@@ -26,6 +27,7 @@ import {
 	getVisitPurposeData,
 	getVisitorTypeData
 } from '../controllers/controllerMockupPie';
+
 
 const routerApi = express.Router();
 // mock data
