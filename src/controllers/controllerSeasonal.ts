@@ -19,10 +19,17 @@ const seasonalChartOptions = {
 	tension: 0.5
 };
 
+const bookingOneYear = Object.values(
+	mockBookingAndCheckin["bookings"][0]["2022"]
+  );
+  const checkInOneYear = Object.values(
+	mockBookingAndCheckin["checkin"][0]["2022"]
+  );
+
 const oneYearSeasonalBookingCheckInData = {
 	data: {
-		booking: [10, 20, 30, 40, 50, 60],
-		checkin: [10, 20, 30, 40, 50, 60],
+		booking: bookingOneYear,
+		checkin: checkInOneYear,
 	  },
 	  statusCode: "200",
 };

@@ -45,6 +45,7 @@ routerApi.get(
 );
 
 // TODO: adding the new route here
+routerApi.get('/v1/oneYearSeasonalBookingCheckInData', getOneYearSeasonalBookingCheckInData);
 
 routerApi.get('/v1/sixMonthsTurnupRatioData', getSixMonthsTurnupRatioData);
 routerApi.get('/v1/oneYearTurnupRatioData', getOneYearTurnupRatioData);
